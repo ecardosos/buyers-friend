@@ -1,7 +1,9 @@
+@import '../../assets/style-variables/_colors.scss';
+
 .HeaderBar {
     display: flex;
     align-items: center;
-    background: #3bcf6d;
+    background: $primary-color;
     
     .header-bar-icon {
         margin-left: 15px;
