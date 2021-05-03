@@ -1,0 +1,46 @@
+@import '../../../assets/style-variables/_colors.scss';
+
+.PaymentData {
+    background: white;
+    height: 325px;
+
+    .header{
+        font-size: 19px;
+        background-color: $secondary-color;
+        width:100%;
+        padding: 15px;
+        margin-bottom: 5px;
+        color: white;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .body{
+        padding: 5px 15px;
+        border-radius: 0 0 5px 5px;
+
+        .flex-section {
+            display: flex;
+            padding: 0;
+            margin-bottom: 15px;
+        }
+
+        .small-input {
+            width: 85px;
+        }
+    }
+    .card {
+        background-color: $primary-color;
+        width: 205px;
+        height:110px;
+
+        .card-band {
+            background-color: #e4e4e4;
+            top: 20px;
+            position: absolute;
+            width: 100%;
+            height: 25px;
+        }
+    }  
+}
+
+// @media screen and (max-height: 450px) {}

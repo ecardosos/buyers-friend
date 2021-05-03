@@ -1,0 +1,23 @@
+@import '../../../assets/style-variables/_colors.scss';
+
+.ProductData {
+    background: white;
+    height: 325px;
+
+    .header{
+        font-size: 19px;
+        background-color: $secondary-color;
+        width:100%;
+        padding: 15px;
+        margin-bottom: 5px;
+        color: white;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .body{
+        padding: 5px 15px;
+        border-radius: 0 0 5px 5px;
+    }
+}
+
+// @media screen and (max-height: 450px) {}
