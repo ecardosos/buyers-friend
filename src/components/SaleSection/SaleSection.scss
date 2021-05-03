@@ -1,0 +1,38 @@
+@import '../../assets/style-variables/_colors.scss';
+
+.SaleSection {
+    background: $background;
+
+    .header{
+        font-size: 19px;
+        background-color: white;
+        width:100%;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .body{
+        padding: 15px;
+
+        button {
+            background-color: $primary-color;
+            color: white;
+            border: 0;
+            border-radius: 5px;
+            padding: 7px 10px;
+            height: 40px;
+            margin: 0 10px 15px;
+            bottom: 0;
+            right: 15px;
+            position: absolute;
+        }
+
+        .section-row{
+            display: flex;
+            margin-bottom: 20px;
+        }
+    }
+    
+}
+
+// @media screen and (max-height: 450px) {}
