@@ -1,12 +1,13 @@
 @import '../../assets/style-variables/_colors.scss';
 
 .HeaderBar {
+    height:  70px;
     display: flex;
     align-items: center;
     background: $primary-color;
     
     .header-bar-icon {
-        margin-left: 15px;
-        padding: 12px 16px;
+        // margin-top: 5px;
+        padding: 12px 16px 0px;
     }    
 }
