@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Notas de uso
+
+Para o Projeto funcionar corretamente, é necessário que haja uma API com os seguintes endpoints:
+- '/products',
+- 'subsidiary',
+- 'paymentMethod' e
+- '/sales' (endpoint criado para testes)
+A API deve rodar em [http://localhost:3000](http://localhost:3000). Atualmente, as URLs estão escritas literalmente no código.
+Requisitos atendidos:
+- O sistema deve permitir que o usuário adicione produtos a um pedido de uma venda;
+- O sistema deve permitir o usuário fazer uma venda (apresenta bugs);
+- O sistema deve conseguir exibir as vendas realizadas ao usuário quando solicitado;
+
+É possível executar o projeto a partir dos scrits descritos abaixo.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -9,7 +24,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
