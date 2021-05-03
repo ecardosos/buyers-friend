@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Route, Link } from "react-router-dom";
 import './Sidebar.scss';
 
 import report from '../../assets/icons svg/report.svg';
@@ -19,15 +20,15 @@ class Sidebar extends React.Component<any,any> {
     return (
       <div className={'Sidebar ' + (this.state.isExpanded ? "expanded" : "collapsed")} data-testid="Sidebar" 
         onMouseOver={this.openSidebar} onMouseOut={this.closeSidebar}>
-        <a href='/#'>
+        <Link to='/sale'>
           <img className='icon' alt='sale' src={sale}/>
           <span className='icon-text' hidden={!this.state.isExpanded}>Fazer uma Venda</span>
-        </a>
+        </Link>
 
-        <a href='/#'>
+        <Link to='/report'>
           <img className='icon' alt='report' src={report}/>
           <span className='icon-text' hidden={!this.state.isExpanded}>Histórico de Vendas</span>
-        </a>
+        </Link>
       </div>
     );
   }

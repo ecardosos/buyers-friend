@@ -14,20 +14,22 @@
   }
 
   &.collapsed {
-    width: 55px;
+    width: 75px;
   }
       
   a {
     padding: 8px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 19px;
     color: #e4e4e4;
     display: flex;
     margin-top: 20px;
+    text-decoration: none;
 
-    :hover {
+    span:hover {
       color: #f1f1f1;
       font-weight: bold;
+      text-decoration: none;
     }
   }   
       
@@ -38,7 +40,7 @@
 
   .icon-text {
     text-align: left;
-    margin-top: 5px;
+    // margin-top: 5px;
   }
 
   .icon {
