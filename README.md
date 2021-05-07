@@ -6,10 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Para o Projeto funcionar corretamente, é necessário que haja uma API com os seguintes endpoints:
 - '/products',
-- 'subsidiary',
-- 'paymentMethod' e
-- '/sales' (endpoint criado para testes)
-A API deve rodar em [http://localhost:3000](http://localhost:3000). Atualmente, as URLs estão escritas literalmente no código.
+- '/subsidiary',
+- '/paymentMethod' e
+- '/sales' (endpoint criado para testes)\
+A API deve rodar em [http://localhost:3000](http://localhost:3000). Atualmente, as URLs estão escritas literalmente no código.\
 Requisitos atendidos:
 - O sistema deve permitir que o usuário adicione produtos a um pedido de uma venda;
 - O sistema deve permitir o usuário fazer uma venda (apresenta bugs);
